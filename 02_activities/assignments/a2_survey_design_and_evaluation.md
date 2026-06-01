@@ -44,26 +44,35 @@ The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+
+Choosing Scenario 1.
+
+The purpose of this survey is to understand some factors which affect employee satisfaction and retention. I believe that we should survey all current employees and recent former employees, asking about why they joined the company, what part of the job they like, what is keeping them here, and what would make them want to leave. 
+
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+
+The target population is all current employees and recent former employees. The sampling frame should have good overlap with the target population, given that the company should have the contact info for current and former employees. The sampling units are individual employees. The overall strategy would be to email/message a survey to all employees, like a cencus, while promising a small monetary reward upon completion. I think this will improve the number and quality of responses, and should represent a small relative cost for a large tech company. Finally, the responses should by anonymized, or only collecting the relevant info, such as the employee's age, start date within the company, start date within their current team, and current title/position.
+
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+
+1. What is your current level of satisfaction working with the Company? On a scale from 0 (completely unsatisfied) to 10 (fully satisfied)
+2. Please describe why you gave the rating you did in the previous question?
+3. Please describe some factors which led you to join the Company.
+4. Please describe how the Company can change to improve your current work satisfaction.
+5. Please describe some things the Company does well to improve your work satisfaction.
+6. How likely are you to leave the company within the next year? On a scale from 0 (very unlikely) to 10 (very likely).
+6. If you are likely to leave the Company within the next year, please describe why.
+7. Is there anything the Company oculd do to incentivize you to stay with the Company?
+8. Please write any further comments or suggestions for the Company regarding your workplace satisfaction.
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +80,35 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+
+1. Sample type
+    The survey uses one stage stratified sampling. The strata are Census Metropolitan Areas, which are essentially the big cities and surrounding suburbs. Then, the sampling unit is one person 15 years or older.
+2. Sample size
+    About 21000 people responded to the survey.
+3. Target population
+    All persons 15 years or older in Canada.
+4. Sampling frame
+    The sampling frame is a combination of landline and cell phone numbers from the Canadian Cencus and "various administrative sources" withing Statistics Canada.
+5. Survey mode(s) 
+    The survey was conducted through an electronic questionnaire or telephone interviewing.
+6. Timeline
+    The survey ran from Sept - Dec 2018.
+7. Response rate
+    The response rate was 41.9% out of approximately 50000 sampling units (people).
+8. Weights
+    There appears to be 3 different weights. First is the normal "weight" or "weighting factor" which is just the weight from simple random sampling, 1/N where N is the number of people sampled. A second weight is calculated for respondents who aren't ovlunteers. Finally, an adjusting factor was applied so that the weighted income distribution matched the distribution of a recent 2017 survey.
+9. Data processing
+    Data were processed in a series of steps known as the Social Survey Processing Environment (SSPE).
+10. Cleaning, imputation, etc
+    Data were edited automatically and manually for consistency, out of range values, etc. For imputation, it seems like the response from a similar donor was used.
+11. Sources of error
+    Sampling error occurs when a random sample may not be representative of the population. Bootstrap methods were used to create more precise estimates of the sampling variability. Non-sampling errors included imperfect coverage and non-response. Coverage errors come from incomplete records of households with telephones, although the study authors expect the biases here to be small. Non-response comes from certain people not responding, and the study authors tried to adjust survey weights to reduce non-response bias.
+12. Limitations, known biases, etc
+    The 2018 GSS attempted to minimize bias by using a well-tested questionairre which had been seeing constant changes and improvements through its various iterations. Additionally, they used specialized interviewers and strict quality control.
+13. Link to documentation and any additional sources used
+    https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+    https://www150.statcan.gc.ca/n1/pub/75-005-m/75-005-m2019001-eng.htm
+
 ```
 
 ## Rubric
